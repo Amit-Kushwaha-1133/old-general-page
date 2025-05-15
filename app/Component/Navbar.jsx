@@ -56,7 +56,7 @@ export default function Navbar() {
           </p>
         </div>
 
-        <div className="pl-30 flex flex-row gap-3 sm:hidden ">
+        <div className="pl-30 flex flex-row gap-3 sm:hidden">
           <div className="flex flex-row items-center gap-1 sm:hidden border border-white rounded-3xl px-3 py-2">
             <p className="text-white text-sm">Add Listing</p>
             <p className="bg-green-700 text-white text-xs p-1 rounded-3xl">

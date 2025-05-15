@@ -19,7 +19,7 @@ export default function Tab() {
     const scrollContainerRef = useRef(null);
 
     return (
-      <section className="w-full sm:hidden overflow-x-auto hide-scrollbar">
+      <section className="w-full sm:hidden overflow-x-auto hide-scrollbar pb-8">
       <div
         ref={scrollContainerRef}
         className="flex flex-nowrap gap-2"
