@@ -30,8 +30,8 @@ const residentialProperties = [
 
 const Exploreresident = () => {
   return (
-    <section className="sm:flex flex-col hidden sm:justify-center h px-20 pb-16">
-      <p className="text-2xl font-extrabold mb-5">Explore Residential Properties</p>
+    <section className="sm:flex flex-col hidden pt-13 bg-blue-50 sm:justify-center h px-20 pb-16">
+      <p className="text-2xl text-black font-extrabold mb-5">Explore Residential Properties</p>
       <div className="flex flex-row justify-between items-center h-[380px]">
         <div className="w-[27%] h-full">
           <Variantprops card={residentialProperties[0]} variant="residential" />

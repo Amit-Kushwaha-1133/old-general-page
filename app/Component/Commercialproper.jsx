@@ -92,8 +92,8 @@ const highlight = [
 
 const Commercialproper = () => {
   return (
-    <section className="hidden sm:flex flex-col px-20 pb-16">
-      <h2 className="text-2xl font-extrabold mb-4">
+    <section className="hidden sm:flex bg-white flex-col px-20 pt-18 pb-16">
+      <h2 className="text-2xl text-black font-extrabold mb-4">
       Commercial Properties for Sale in Noida
       </h2>
       <div className="flex flex-row overflow-x-auto hide-scrollbar gap-4">

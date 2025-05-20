@@ -25,8 +25,8 @@ export default function Furnishingtype() {
   );
 
   return (
-    <section className="sm:flex flex-col hidden sm:justify-center px-20 pb-16">
-      <p className="text-2xl font-extrabold mb-5">Explore by Furnishing Type</p>
+    <section className="sm:flex pt-13 bg-white flex-col hidden sm:justify-center px-20 pb-16">
+      <p className="text-2xl font-extrabold mb-5 text-black">Explore by Furnishing Type</p>
 
       <div className="flex flex-row w-full justify-between">
         {furnishedtype.map((data, index) => (

@@ -22,9 +22,9 @@ const plotstype = [
 
 function Plot() {
   return (
-    <section className=" sm:bg-slate-200 sm:mb-12">
+    <section className=" sm:bg-slate-200">
       <div className="hidden sm:flex flex-col px-20 py-14">
-        <p className="text-2xl font-extrabold pb-6">Plots in Noida</p>
+        <p className="text-2xl text-black font-extrabold pb-6">Plots in Noida</p>
         
         <div className="flex flex-row w-full gap-4">
         {plotstype.map((data, index) => (

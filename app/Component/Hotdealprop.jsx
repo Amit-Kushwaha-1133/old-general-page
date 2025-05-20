@@ -26,8 +26,8 @@ function Hotdealprop() {
       );
     
       return (
-        <section className="sm:flex flex-col hidden sm:justify-center px-20 pb-16">
-          <p className="text-2xl font-extrabold mb-5">Hot Deal Properties in noida</p>
+        <section className="sm:flex flex-col hidden bg-white sm:justify-center px-20 pb-16">
+          <p className="text-2xl text-black font-extrabold mb-5">Hot Deal Properties in noida</p>
     
           <div className="flex flex-row w-full justify-between gap-4">
             {furnishedtype.map((data, index) => (

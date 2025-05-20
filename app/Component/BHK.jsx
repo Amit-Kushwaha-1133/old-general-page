@@ -30,8 +30,8 @@ const plotstype = [
 
 function BHK() {
   return (
-    <section className="hidden sm:flex flex-col px-20 py-14">
-      <p className="text-2xl font-extrabold pb-6">BHK in Mind?</p>
+    <section className="hidden sm:flex bg-white flex-col px-20 py-14">
+      <p className="text-2xl text-black font-extrabold pb-6">BHK in Mind?</p>
 
       <div className="flex flex-row w-full gap-4 justify-between">
         {plotstype.map((data, index) => (

@@ -27,8 +27,8 @@ const offercards = [
 
 export default function Ouroffering() {
   return (
-    <section className="sm:flex flex-col hidden sm:justify-center px-20 py-16">
-      <p className="text-2xl font-extrabold mb-5">Our Offerings</p>
+    <section className="sm:flex flex-col hidden bg-white sm:justify-center px-20 py-16">
+      <p className="text-2xl text-black font-extrabold mb-5">Our Offerings</p>
 
       <div className="flex flex-row gap-3 h-[152px]">
         {offercards.map((card, index) => (

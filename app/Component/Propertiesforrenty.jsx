@@ -50,8 +50,8 @@ const Propertiesforrenty = () => {
     }
   };
   return (
-    <section className="sm:flex w-full flex-col hidden sm:justify-center px-20 pb-16">
-      <p className="text-2xl font-extrabold pb-6">
+    <section className="sm:flex w-full bg-white flex-col hidden sm:justify-center px-20 pb-16">
+      <p className="text-2xl text-black font-extrabold pb-6">
         Properties for Rent in Noida
       </p>
 

@@ -20,7 +20,8 @@ const dataa = [
 
 function Downloadappbanner() {
   return (
-    <section className="relative hidden sm:flex flex-row bg-blue-800 rounded-4xl text-white mx-20 mb-18 justify-between"
+    <section className="hidden sm:flex flex-row bg-white ">
+    <div className="relative hidden sm:flex flex-row bg-blue-800 rounded-4xl text-white mx-20 mb-18 justify-between"
      style={{
     backgroundImage: `
       linear-gradient(to right, rgba(204, 204, 204, 0.1) 1px, transparent 1px),
@@ -78,6 +79,7 @@ function Downloadappbanner() {
                     className=" flex justify-end h-full pt-5 pr-10"
                   />
 
+                  </div>
                   </div>
     </section>
   );

@@ -28,18 +28,18 @@ const ApartmentCard = ({ data, highlights }) => {
       </div>
 
       <div className="flex flex-col px-2">
-        <p className="text-base font-bold leading-6 pb-1 pt-2">
+        <p className="text-base font-bold leading-6 text-black pb-1 pt-2">
           {data.apartheading}
         </p>
-        <p className="text-base font-semibold text-gray-400 leading-6 pb-2">
+        <p className="text-base font-semibold text-gray-400  leading-6 pb-2">
           {data.loc}
         </p>
 
-        <div className="w-full flex flex-row overflow-x-auto space-x-2 hide-scrollbar">
+        <div className="w-full flex flex-row overflow-x-auto  space-x-2 hide-scrollbar">
           {highlights.map((item, idx) => (
             <div
               key={idx}
-              className="min-w-max font-semibold leading-4 rounded-md px-3 py-1 border border-[#E9ECFA] gap-1.5 text-xs bg-blue-50 mb-3"
+              className="min-w-max font-semibold leading-4 text-black rounded-md px-3 py-1 border border-[#E9ECFA] gap-1.5 text-xs bg-blue-50 mb-3"
             >
               {item.id}
             </div>
@@ -54,7 +54,7 @@ const ApartmentCard = ({ data, highlights }) => {
          {/* <Image /> */}
           <p className="text-xs font-medium text-gray-400">
             Posted By </p>
-            <p className="text-sm font-extrabold">{data.posted}</p>
+            <p className="text-sm text-black font-extrabold">{data.posted}</p>
         </div>
 
         <button className="text-white bg-blue-900 py-3 px-5.5 rounded-lg">
