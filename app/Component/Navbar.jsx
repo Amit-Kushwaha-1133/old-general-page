@@ -5,7 +5,8 @@ import Tab from "./Tab";
 export default function Navbar() {
   return (
     <section className="flex flex-col w-full px-3 gap-4">
-      <div className="flex flex-row pt-5 sm:ml-6  sm:justify-evenly">
+      <div className="flex flex-row pt-5 sm:ml-6 justify-between  sm:justify-evenly">
+        <div className="flex flex-row gap-2">
         <div className="flex flex-row items-center">
           <img
             src="/hexahomelogo.svg"
@@ -29,7 +30,7 @@ export default function Navbar() {
             />
           </div>
         </div>
-
+</div>
         <div className="sm:flex flex-row hidden items-center sm:gap-5 xl:gap-7 text-white text-base">
           <p>For Buyers</p>
           <p>For Tenants</p>
@@ -56,7 +57,7 @@ export default function Navbar() {
           </p>
         </div>
 
-        <div className="pl-30 flex flex-row gap-3 sm:hidden">
+        <div className=" flex flex-row gap-3 sm:hidden">
           <div className="flex flex-row items-center gap-1 sm:hidden border border-white rounded-3xl px-3 py-2">
             <p className="text-white text-sm">Add Listing</p>
             <p className="bg-green-700 text-white text-xs p-1 rounded-3xl">
@@ -92,7 +93,7 @@ export default function Navbar() {
         <input
           type="text"
           placeholder="Search for city, locality..."
-          className="px-3 py-3 text-base flex-grow outline-none"
+          className="px-3 py-3 text-base placeholder:text-gray-500 flex-grow outline-none"
         />
         <button className="flex flex-row items-center bg-blue-800 text-white px-3 py-3">
           <img src="/search.svg" alt="search" className="w-5 h-5 mr-1" />

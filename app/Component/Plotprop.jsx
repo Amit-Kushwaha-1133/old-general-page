@@ -71,7 +71,7 @@ function Plotprop() {
       <p className="text-2xl text-black font-extrabold pb-6">Plots for Sale in Noida</p>
       <div className="flex w-full flex-row overflow-x-auto hide-scrollbar gap-4">
         {sale.map((data, index) => (
-          <div className="relative pl " key={index}>
+          <div className="relative" key={index}>
             <div className='h-fit w-85'>
             <Image
               src={data.Images}

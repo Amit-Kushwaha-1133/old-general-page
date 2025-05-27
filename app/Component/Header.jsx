@@ -6,7 +6,7 @@ import Tabdesk from "./Tabdesk";
 
 export default function Header() {
     return (
-      <section className="relative w-full">
+      <section className="relative w-full bg-white">
         <div className="absolute inset-0 bg-[url('/bg-header.png')] bg-cover bg-center rounded-b-3xl sm:rounded-none" />
         <div className="absolute inset-0 bg-gradient-to-b from-blue-800 to-blue-950 opacity-90 rounded-b-3xl  sm:rounded-none" />
         <div className="relative z-10">

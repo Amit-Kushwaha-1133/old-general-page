@@ -23,7 +23,7 @@ export default function Searchtab() {
         <input
           type="text"
           placeholder="Search for City, Locality or Projects"
-          className="px-4 py-2 text-base outline-none w-80"
+          className="px-4 py-2 placeholder:text-gray-500 text-base outline-none w-80"
         />
         <button className="bg-blue-900 text-white px-12 py-4 text-xl font-medium rounded-4xl cursor-pointer">
           Search

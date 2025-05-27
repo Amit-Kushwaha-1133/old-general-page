@@ -22,17 +22,25 @@ const plotstype = [
 
 function Plot() {
   return (
-    <section className=" sm:bg-slate-200">
-      <div className="hidden sm:flex flex-col px-20 py-14">
-        <p className="text-2xl text-black font-extrabold pb-6">Plots in Noida</p>
+    <section className=" bg-white sm:bg-slate-200">
+      <div className="flex flex-col px-3 sm:px-20 py-3 sm:py-14">
+        <p className="text-lg sm:text-2xl text-black font-extrabold pb-3 sm:pb-6">Plots in Noida</p>
         
-        <div className="flex flex-row w-full gap-4">
+        <div className="hidden sm:flex flex-row w-full gap-4">
         {plotstype.map((data, index) => (
           <div className="h-45 w-96" key={index}>
             <Variantprops card={data} variant="Plottype"/>
           </div>
         ))}
       </div>
+      <div className="flex sm:hidden flex-row overflow-auto justify-between gap-2 pb-3 w-full hide-scrollbar">
+          {plotstype.map((data, index) => (
+            <div key={index}>
+              <Variantprops card={data} variant="ouroffering" />
+             
+            </div>
+          ))} 
+        </div>
       </div>
     </section>
   );

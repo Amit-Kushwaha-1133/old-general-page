@@ -50,12 +50,12 @@ const Propertiesforrenty = () => {
     }
   };
   return (
-    <section className="sm:flex w-full bg-white flex-col hidden sm:justify-center px-20 pb-16">
-      <p className="text-2xl text-black font-extrabold pb-6">
+    <section className="flex w-full bg-white flex-col sm:justify-center px-3 sm:px-20 pt-6 sm:pb-16">
+      <p className="text-lg  sm:text-2xl text-black font-extrabold pb-3 sm:pb-6">
         Properties for Rent in Noida
       </p>
 
-      <div className="relative flex items-center ">
+      <div className="relative hidden sm:flex items-center ">
         <div className="absolute left-0 top-0 bottom-0 w-40 bg-gradient-to-r from-white to-transparent z-5" />
         <div className="absolute right-0 top-0 bottom-0 w-40 bg-gradient-to-l from-white to-transparent z-5" />
 
@@ -83,6 +83,14 @@ const Propertiesforrenty = () => {
           <img src="/farword.svg" alt="farword" className="" />
         </button>
       </div>
+      <div className="flex sm:hidden flex-row overflow-auto justify-between gap-2 pb-6 w-full hide-scrollbar">
+          {properties.map((data, index) => (
+            <div key={index} >
+              <Variantprops card={data} variant="ouroffering" />
+             
+            </div>
+          ))}
+        </div>
     </section>
   );
 };

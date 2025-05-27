@@ -17,7 +17,7 @@ const para = [
 
 export default function Assistancebanner() {
     return (
-      <section className="flex w-full">
+      <section className="hidden sm:flex w-full ">
       <div className=" bg-[url('/assistancebg.png')] bg-cover bg-center rounded-[20px] h-fit w-full py-6 pl-6">
         <p className="text-blue-900 text-2xl font-extrabold">Need Assistance to Post Property?</p>
         <div className="flex flex-col py-6">

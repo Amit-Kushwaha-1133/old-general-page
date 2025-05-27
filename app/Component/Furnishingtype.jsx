@@ -25,12 +25,12 @@ export default function Furnishingtype() {
   );
 
   return (
-    <section className="sm:flex pt-13 bg-white flex-col hidden sm:justify-center px-20 pb-16">
-      <p className="text-2xl font-extrabold mb-5 text-black">Explore by Furnishing Type</p>
+    <section className="flex sm:pt-13 bg-[#F1F0F5]  sm:bg-white flex-col justify-center px-3 sm:px-20  py-3 sm:pb-16">
+      <p className="text-lg sm:text-2xl font-extrabold mb-3 sm:mb-5 text-black">Explore by Furnishing Type</p>
 
-      <div className="flex flex-row w-full justify-between">
+      <div className="flex flex-row w-full gap-2 sm:gap-4 justify-between overflow-x-auto hide-scrollbar">
         {furnishedtype.map((data, index) => (
-          <div className="h-45 w-96" key={index}>
+          <div className="h-28 sm:h-45 w-full" key={index}>
             <Variantprops card={data} variant="Furnishtype" icon={clickArrow} />
           </div>
         ))}
