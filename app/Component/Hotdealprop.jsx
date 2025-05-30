@@ -29,7 +29,7 @@ function Hotdealprop() {
         <section className="flex flex-col bg-[#F1F0F5] sm:bg-white sm:justify-center px-3 py-3 sm:px-20 sm:pb-16">
           <p className="text-lg sm:text-2xl text-black font-extrabold mb-3 sm:mb-5">Hot Deal Properties in noida</p>
     
-          <div className="hidden sm:flex flex-row w-full justify-between gap-4">
+          <div className="hidden sm:flex flex-row w-full overflow-auto justify-between gap-4">
             {furnishedtype.map((data, index) => (
               <div className="h-45 w-full" key={index}>
                 <Variantprops card={data} variant="Furnishtype" icon={clickArrow} />

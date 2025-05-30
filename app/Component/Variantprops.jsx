@@ -5,7 +5,7 @@ const variantStyle = {
     mainstyle:"flex w-full h-full flex-row justify-center items-center p-4 bg-black/50 rounded-2xl ",
     containerStyle:
       "w-full h-full rounded-2xl bg-center bg-cover bg-no-repeat flex flex-col justify-end  shadow-lg text-white",
-    titleStyle: "rounded-md w-1/2  px-4 sm:w-full text-sm sm:text-xl font-extrabold sm:font-bold text-center pt-16 flex pb-0  whitespace-nowrap",
+    titleStyle: "rounded-md w-1/2  px-4 sm:w-full text-sm sm:text-xl font-extrabold sm:font-bold text-center pt-16 flex pb-0",
   },
   residential: {
     mainstyle:"flex w-full flex-row justify-center items-center",

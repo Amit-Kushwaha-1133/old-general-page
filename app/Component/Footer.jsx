@@ -3,7 +3,7 @@ import Image from "next/image";
 
 function Footer() {
   return (
-    <section className="sm:flex flex-col hidden">
+    <section className="sm:flex flex-col hidden ">
       <div className="w-full flex flex-col justify-center items-center relative">
         <div className="absolute inset-0 bg-[url('/bgfooter.png')] bg-cover bg-center filter blur-xs z-0" />
         <div className="absolute inset-0 bg-black/60 z-10" />
@@ -34,8 +34,10 @@ function Footer() {
         </div>
       </div>
 
-      <div className=" flex flex-row bg-gray-950 text-white">
-        <div className="flex flex-col pl-20 pt-10 border-r pr-10 pb-11">
+
+
+      <div className="flex flex-row bg-gray-950 text-white justify-between">
+        <div className="flex flex-col pl-20 pt-10 border-r pr-3 lg:pr-10 pb-11">
           <div className="flex flex-row items-center gap-1.5">
             <Image
               src="/hexahomelogo.svg"
@@ -124,14 +126,13 @@ function Footer() {
             </button>
           </div>
         </div>
-
-        <div className="flex flex-col pl-10 pt-10 pr-20 pb-11">
-          <div className="flex flex-row gap-10 lg:gap-20 pb-20 justify-between">
+        <div className="flex flex-col pl-3 lg:pl-10 pt-10 pr-20 pb-11">
+          <div className="w-full flex flex-row pb-20 justify-between">
             <div>
               <p className="text-2xl font-bold border-b">Our Company</p>
               <ul className="list-disc list-inside flex flex-col gap-4 pt-6 text-base font-normal leading-6 text-nowrap">
                 <li>About Us</li>
-                <li>Feedback</li>
+                <li>Feedback</li>   
                 <li>Careers With Us</li>
                 <li>Support</li>
                 <li>Privacy policy</li>
@@ -157,7 +158,7 @@ function Footer() {
             </div>
           </div>
 
-          <div className="flex flex-row lg:justify-between gap-30">
+          <div className="flex flex-row justify-between">
             <div className="flex flex-col gap-3">
               <p className="text-2xl font-bold leading-8 text-nowrap">
                 Available on iOS & Android
@@ -178,7 +179,7 @@ function Footer() {
                 />
               </div>
             </div>
-            <div className="flex flex-row items-center pl-20 md:pl-36 pr-20">
+            <div className="flex flex-row items-center pl-20 justify-between pr-20">
               <Image
                 src="/scanner.svg"
                 alt="appstorewhite"
@@ -192,6 +193,7 @@ function Footer() {
           <p className="pt-16 flex justify-center text-xl leading-7">All rights reserved - © 2024 Hexadecimal Software PVT LTD</p>
         </div>
       </div>
+      
     </section>
   );
 }
